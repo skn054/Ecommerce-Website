@@ -1,0 +1,271 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    margin-top: 30px;
+    overflow-y: auto;
+    background: #222;
+      float: left;
+     display: block;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#sidebar-wrapper ul {
+      list-style-type: none;
+      margin: 0;
+      
+}
+.icon { margin:10px; margin-left: -20px;margin-bottom:30px;text-align: center;}
+#sidebar-wrapper li { margin: 0px; }
+ 
+.text {
+      display: inline;
+      margin: 5px;
+      padding: 10px;
+      text-align: center;
+}
+
+.topclass
+{
+    padding: 0;
+}
+
+.navbar-default
+{
+   
+}
+.search
+{
+    padding-top: 8px;
+}
+#text
+{
+    padding-right: 600px;
+    border-radius: 100px;
+    padding-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.box
+{
+    padding-top: 10px;
+    position: relative;
+}
+ul.products li {
+    
+      
+           width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+    
+}
+.monospaced { font-family: 'Ubuntu Mono', monospaced ; }
+.form-control
+{
+    padding-right: 550px;
+}
+ul.products li p{
+    
+      
+           margin-right: 20px;
+    
+
+    
+}
+.tabs
+{
+    margin-top: 30px;
+}
+.buy
+{
+    margin-top: 20px;
+}
+.add_to
+{
+    background-color: orange;
+    color: white;
+}
+#review a:hover{
+    color: blue;
+}
+#kart
+{
+    margin-right: 190px;
+}
+.carousel-holder
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+ul.products li a button{
+    
+      
+    
+    
+
+    
+}
+#single_product
+{
+     border: 2px solid white;
+     margin-bottom: 15px;
+         
+}
+#single_product img
+{
+    
+
+}
+.thumbnail
+{
+    
+}
+
+
+
+
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu-toggle
+{
+    padding: 8px;
+    
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: #1c1818;
+}
+#menu
+{
+    margin-left: 10px;
+}
+
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav .text
+{
+    margin: 15px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 20px;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 50px;
+    }
+     #wrapper.toggled #sidebar-wrapper a 
+     {
+        
+     }
+
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+    
+}

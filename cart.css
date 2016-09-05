@@ -1,0 +1,146 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+.topclass
+{
+    padding: 0;
+}
+
+
+.search
+{
+    padding-top: 8px;
+}
+#text
+{
+    padding-right: 600px;
+    border-radius: 100px;
+    padding-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.box
+{
+    padding-top: 10px;
+    position: relative;
+}
+ul.products li {
+    
+      
+           width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    
+
+    
+}
+.monospaced { font-family: 'Ubuntu Mono', monospaced ; }
+.form-control
+{
+    padding-right: 850px;
+}
+
+.tabs
+{
+    margin-top: 30px;
+}
+.buy
+{
+    margin-top: 20px;
+}
+.add_to
+{
+    background-color: orange;
+    color: white;
+}
+#review a:hover{
+    color: blue;
+}
+#kart
+{
+    margin-right: 190px;
+}
+
+ul.products li a button{
+    
+      
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+}
+
+
+
+/* Sidebar Styles */
+
+
+#menu-toggle
+{
+    padding: 8px;
+    
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: #1c1818;
+}
+#menu
+{
+    margin-left: 10px;
+}
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+   
+
+    
+
+    
+
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+        margin-top: 60px;
+    }
+
+   
+    
+}
